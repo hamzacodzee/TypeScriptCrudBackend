@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 const crudSchema = new mongoose.Schema({
     s_name: String,
     marks: Number,
-    result: String
+    result: Boolean
 });
 
 const Crud = mongoose.model('Crud', crudSchema);
